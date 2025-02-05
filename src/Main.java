@@ -93,7 +93,7 @@ public class Main {
 
         int result = ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
         int lotSchoolboys = myPaper / result;
-        System.out.println(lotSchoolboys);
+        System.out.println("На каждого ученика рассчитано" + lotSchoolboys + "листов бумаги");
 
 
         byte bottle = 16;

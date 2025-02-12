@@ -26,7 +26,7 @@ public class Main {
         friend = friend * 2;
         System.out.println(friend);
 
-        friend = friend -7;
+        friend = friend - 7;
         System.out.println(friend);
 
         var frog = 3.5;
@@ -178,8 +178,6 @@ public class Main {
         System.out.println("Денчик теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + differenceKristina + " рублей.");
 
 
-
-
         int age = 42;
         if (age >= 18) {
             System.out.println("Ты совершеннолетний.");
@@ -204,12 +202,11 @@ public class Main {
         }
 
 
-
         int years = 52;
         if (years >= 2 && years <= 6) {
             System.out.println("Тебе нужно ходить в детский садик");
         }
-        if (years >= 7 && years <=17) {
+        if (years >= 7 && years <= 17) {
             System.out.println("Тебе теперь нужно ходить в школу");
         }
         if (years >= 18 && years <= 24) {
@@ -218,7 +215,6 @@ public class Main {
         if (years > 24) {
             System.out.println("Тебе теперь нужно ходить на работу");
         }
-
 
 
         int year = 14;
@@ -231,7 +227,6 @@ public class Main {
         if (year > 14) {
             System.out.println("Ну ладно школьник ты можешь кататься в аттракционе");
         }
-
 
 
         int totalCapacity = 102;
@@ -251,7 +246,6 @@ public class Main {
         if (availableSeats <= 0 && availableStanding <= 0 && occupiedPlaces == totalCapacity) {
             System.out.println("Вагон полный.");
         }
-
 
 
         int one = 10;

@@ -251,16 +251,16 @@ public class Main {
         int one = 10;
         int two = 5;
         int three = 15;
-        int max;
+        int maxNumber;
 
         if (one >= two && one >= three) {
-            max = one;
+            maxNumber = one;
         } else if (two >= one && two >= three) {
-            max = two;
+            maxNumber = two;
         } else {
-            max = three;
+            maxNumber = three;
         }
 
-        System.out.println("Наибольшее число: " + max);
+        System.out.println("Наибольшее число: " + maxNumber);
     }
 }

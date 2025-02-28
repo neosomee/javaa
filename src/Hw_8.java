@@ -27,12 +27,12 @@ public class Hw_8 {
 
         for (int i = 1; i <= 14; i++) {
             int num = 7 * i;
-                System.out.println(num);
-            }
+            System.out.println(num);
+        }
 
         for (int i = 1; i <= 2; i++) {
             int num = i * 2;
-                System.out.println(num);
+            System.out.println(num);
         }
 
         int salary = 29000;

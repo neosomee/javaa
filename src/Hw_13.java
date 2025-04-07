@@ -1,37 +1,36 @@
 public class Hw_13 {
-    public static void printSeparator() {
-        System.out.println("---------------");
-    }
 
-    public static String leapYearsFunc(int year) {
+
+    public static String isLeapYear(int year) {
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-            return("Год високосный");
+            return "Год високосный";
         } else {
-            return("Год не високосный");
+            return "Год не високосный";
         }
     }
 
-    public static void leapYear() {
+
+    public static void checkLeapYear() {
         int year = 2022;
-        String message = leapYearsFunc(year);
+        String message = isLeapYear(year);
         System.out.println(message);
     }
 
 
-
     public static String searchClientOs(int clientOs, int clientDeviceYear) {
         if (clientOs == 0 && clientDeviceYear < 2015) {
-            return ("Установите облегченную версию приложения для iOS по ссылке");
+            return "Установите облегченную версию приложения для iOS по ссылке";
         } else if (clientOs == 0 && clientDeviceYear >= 2015) {
-            return ("Установите версию приложения для iOS по ссылке");
+            return "Установите версию приложения для iOS по ссылке";
         } else if (clientOs == 1 && clientDeviceYear < 2015) {
-            return("Установите облегченную версию приложения для Android по ссылке");
+            return "Установите облегченную версию приложения для Android по ссылке";
         } else if (clientOs == 1 && clientDeviceYear >= 2015) {
-            return("Установите версию приложения для Android по ссылке");
+            return "Установите версию приложения для Android по ссылке";
         } else {
             return "Неподдерживаемая операционная система";
         }
     }
+
 
     public static void clientOs() {
         int clientOsSystem = 1;
@@ -53,6 +52,7 @@ public class Hw_13 {
         }
     }
 
+
     public static void sendCards() {
         int deliveryDistance = 95;
         int deliveryDays = calculateDeliveryDays(deliveryDistance);
@@ -60,9 +60,8 @@ public class Hw_13 {
     }
 
     public static void main(String[] args) {
-        leapYear();
+        checkLeapYear();
         clientOs();
         sendCards();
     }
-
 }
